@@ -1,0 +1,8 @@
+Power BI Steps:
+1. Import CSV
+2. Create measures:
+   Total Revenue = SUMX(ecommerce, ecommerce[Quantity] * ecommerce[UnitPrice])
+3. Create visuals:
+   - Line chart (Monthly)
+   - Bar chart (Country)
+   - Cards (KPIs)
